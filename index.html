@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combis VW - Equipo Recomendado 🚐</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            min-height: 100vh;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+        }
+        
+        .hero img {
+            max-width: 100%;
+            width: 600px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 30px;
+            background: linear-gradient(135deg, #3b82f6, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .tagline {
+            color: #94a3b8;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .category {
+            margin-bottom: 40px;
+        }
+        
+        .category h2 {
+            font-size: 1.5rem;
+            color: #60a5fa;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3b82f6;
+        }
+        
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .product {
+            background: rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(59, 130, 246, 0.2);
+        }
+        
+        .product h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        
+        .product p {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .product a {
+            display: inline-block;
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.3s;
+        }
+        
+        .product a:hover {
+            opacity: 0.9;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 4px;
+            margin-left: 8px;
+        }
+        
+        .badge.amazon { background: #f59e0b; }
+        .badge.ml { background: #3b82f6; }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        footer a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+        
+        .coming-soon {
+            text-align: center;
+            padding: 60px 20px;
+            color: #64748b;
+        }
+        
+        .coming-soon h2 {
+            font-size: 1.8rem;
+            color: #94a3b8;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="combis-hero.jpg" alt="Combi Juan Quenobi y PadaVan Wagen">
+        <h1>Equipo para tu Combi VW 🚐</h1>
+        <p class="tagline">Lo que uso y recomiendo para mis combis - por Dr. Fraga</p>
+    </div>
+    
+    <div class="container">
+        
+        <div class="coming-soon">
+            <h2>🔧 Próximamente</h2>
+            <p>Estamos preparando las recomendaciones de equipo para tu combi VW.</p>
+            <p style="margin-top: 20px;">Categorías que vendrán:</p>
+            <ul style="list-style: none; margin-top: 15px; color: #94a3b8;">
+                <li>⚡ Energía Solar y Baterías</li>
+                <li>🔊 Audio y Entretenimiento</li>
+                <li>💡 Iluminación LED</li>
+                <li>🏕️ Camping y Vanlife</li>
+                <li>🔩 Herramientas y Refacciones</li>
+                <li>🛡️ Seguridad</li>
+            </ul>
+        </div>
+        
+        <!-- 
+        TEMPLATE PARA PRODUCTOS:
+        
+        <div class="category">
+            <h2>⚡ Energía Solar</h2>
+            <div class="products">
+                <div class="product">
+                    <h3>Panel Solar 100W <span class="badge ml">MercadoLibre</span></h3>
+                    <p>Panel monocristalino ideal para el techo de la combi. Yo uso dos de estos.</p>
+                    <a href="LINK_AFILIADO" target="_blank">Ver producto →</a>
+                </div>
+            </div>
+        </div>
+        -->
+        
+    </div>
+    
+    <footer>
+        <p>🚐 Combi Juan Quenobi & PadaVan Wagen</p>
+        <p style="margin-top: 10px;">Un proyecto de <a href="https://phoenix.docfraga.com">Dr. Fraga</a> con ❤️</p>
+        <p style="margin-top: 5px; font-size: 0.8rem;">Los enlaces pueden generar comisiones de afiliado</p>
+    </footer>
+</body>
+</html>
